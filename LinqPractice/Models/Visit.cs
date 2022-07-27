@@ -10,8 +10,8 @@ namespace LinqPractice.Models
     {
         public int VisitId { get; set; }
         public string VisitDescription { get; set; }
-        public Patient Patient { get; set; }
-        public Doctor Doctor { get; set; }
+        public int PatientId { get; set; }
+        public int DoctorId { get; set; }
         public DateTime VisitDate { get; set; }
     }
 }
